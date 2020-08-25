@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='test.css')}}">
+</head>
+<!-- 진자2 라는애들이 { % % } 애들을 사용할 수 있게 만들어 준거야 -->
+<body>
+	{% if name %}
+		<h1>Hello, {{name}}</h1>
+	{% else %}
+		<h1>Hello, World!</h1>
+	{% endif %}
+		
+	<form action="/test" method="post">
+		<input type="hidden" name="command" value="value test">
+		<input type="submit" value="이거 누르면 post형식으로 감">
+	</form>
+</body>
+</html>
