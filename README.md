@@ -27,3 +27,11 @@
 * Python05_Web
 
   > dynamic project로 만들어서 json으로 받아온 data를 html에 뿌려보자
+
+* Python06
+
+  > MongoDB와 연결하여 CRUD해보자
+
+* Python_Bonus
+
+  > Algorism, word cloud
